@@ -13,16 +13,16 @@
        <div class="" >
          <div class="">
             <h3 class="">ID :  <span class="text-danger">{{$productId['id']}}</span></h3>
-            <h5 class="">Title : <span class="text-danger">{{$productId['title']}}</span></h5>
-            <h5 class="">Description :<span class="text-danger">{{$productId['description']}}</span></h5>
-            <h5  >Price <span class="text-danger">{{$productId['price']}} $</span></h5>
+            <h3 class="">Title : <span class="text-danger">{{$productId['title']}}</span></h3>
+            <h3 class="">Description :<span class="text-danger">{{$productId['description']}}</span></h3>
+            <h3  >Price <span class="text-danger">{{$productId['price']}} $</span></h3>
          </div>
       </div>
     </div>
     </div>
-   <div class="aaa text-center"  >
-    <a href="/products" class="btn btn-primary">Back</a>
 
-   </div>
+    <div class="bt text-center">
+      <a href="/products" class="mt-2 btn btn-danger">Back </a>
+    </div>
  </div>
 @endsection
